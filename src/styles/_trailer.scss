@@ -1,0 +1,28 @@
+@use 'variaveis';
+.trailer{
+   
+    background-color: variaveis.$cordefundo;
+    color: variaveis.$cordetexto;
+    justify-content: center;
+    
+
+    &__title{
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+        &::after{
+            content: '';
+            border-bottom: 4px solid rgb(164, 40, 40);
+            width: 30%;
+            display: inline-block;
+        }
+    }
+
+
+    
+
+    &__container{
+        display: flex;
+        justify-content: center;
+    }
+}

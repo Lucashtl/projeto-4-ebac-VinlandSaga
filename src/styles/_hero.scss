@@ -1,0 +1,39 @@
+.hero{
+    background-image: url(../../dist/images/vinland-saga-4k-wallpaper-3840x2160-20955.jpg);
+    padding: 6.6vw;
+    min-height: 110vh;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -88px;
+    &__content{
+
+        &__border{
+            border-bottom: 2px solid white;
+            width: 430px;
+            margin-left: 90px;
+            margin-top: 16px;
+            
+            
+        }
+
+        h1{
+            font-size: 40px;
+            color: rgb(199, 26, 26);
+        }
+        color: rgb(25, 7, 7);
+        float: right;
+        width: 600px;
+        
+    }
+
+    
+
+    img{
+        
+        
+        height: 20px;
+        margin-top: 30px;
+        
+    }
+}

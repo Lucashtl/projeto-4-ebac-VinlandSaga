@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+.header {
+    background-color: variaveis.$cordefundo;
+    padding: 0 40px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    &--is-active{
+        background-color: transparent;
+    }
+
+    &__container {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 50px;
+            transform: rotate(45deg);
+        }
+
+        &__links {
+            
+            &__list {
+                display: flex;
+                
+                &__item {
+                    margin-right: 16px;
+
+                    a{
+                        text-decoration: none;
+                        color: variaveis.$cortitulo;
+                    }
+                }
+            }
+        }
+    }
+}
